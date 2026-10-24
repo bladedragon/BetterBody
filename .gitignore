@@ -1,0 +1,39 @@
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.yarnrc*
+.netrc
+.aws/
+.ssh/
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Dependencies, build output, and caches
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+.cache/
+*.tsbuildinfo
+
+# Personal data, backups, logs, and OS files
+data/
+backups/
+exports/
+*.log
+*.sqlite*
+*.db
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
